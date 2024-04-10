@@ -1,0 +1,13 @@
+h1{
+    font-size: 50px;
+    color: rgb(107, 107, 238);
+}
+button{
+    height: 30px;
+    width: 95px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+button:hover{
+    opacity: 70%;
+}
