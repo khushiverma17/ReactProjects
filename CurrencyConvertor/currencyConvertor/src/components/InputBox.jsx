@@ -4,7 +4,7 @@ function InputBox({
         label, 
         className="" , 
         amount ,
-         onAmountChange, 
+        onAmountChange, 
         onCurrencyChange,
         currencyOptions=[],
         selectCurrency="usd",
