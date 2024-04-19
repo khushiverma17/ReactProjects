@@ -1,6 +1,7 @@
 import React from "react";
 import { useId } from "react";
 function InputBox({
+    //these are nothing but props
         label, 
         className="" , 
         amount ,

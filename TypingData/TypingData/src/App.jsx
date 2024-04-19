@@ -81,7 +81,7 @@ function App() {
 
   function displayBold()
   {
-    if(input)
+    if(value)
     setIsBold(!isBold);
   }
 
@@ -118,9 +118,10 @@ function App() {
 
   function displaywords()
   {
-    if(input){
+    if(value){
       setIsWordClicked(!iswordClicked);
       value=value.trim();
+      console.log("hello");
       const wordArray=value.split(/\s+/);
       setWordCount(wordArray.length);
     }
